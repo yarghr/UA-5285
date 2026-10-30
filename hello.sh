@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Hello Bitch!!!"
+echo "Hellol, my friend!!!"
