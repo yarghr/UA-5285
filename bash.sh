@@ -3,7 +3,7 @@ COUNTER=0
 while [ $COUNTER -lt 10 ] 
 do 
    echo The counter is $COUNTER 
-   echo $HOME
-   let COUNTER=$COUNTER+1 
+   let COUNTER=$COUNTER+1
+   echo this is the end 
 done
 #____________________________MAga_____________
