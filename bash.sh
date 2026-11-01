@@ -1,9 +1,15 @@
-#!/bin/bash 
-COUNTER=0 
-while [ $COUNTER -lt 10 ] 
-do 
-   echo The counter is $COUNTER 
-   let COUNTER=$COUNTER+1
-   echo this is the end 
-done
-#____________________________MAga_____________
+#!/bin/bash
+Y='\033[1;33m'  # жовтий
+G='\033[1;32m'  # зелений
+P='\033[1;35m'  # рожевий
+C='\033[1;36m'  # блакитний
+R='\033[0m'     # скидання кольору
+
+echo -e "${Y}    /\\_____/\\ ${R}"
+echo -e "${Y}   /  ${G}o${Y}   ${G}o${Y}  \\ ${R}"
+echo -e "${Y}  ( ==  ${P}^${Y}  == )${R}"
+echo -e "${Y}   )         (${R}"
+echo -e "${Y}  (           )${R}"
+echo -e "${Y} ( (  )   (  ) )${R}"
+echo -e "${Y}(__(__)___(__)__)${R}"
+echo -e "${C}     Мяу-Мяу!${R}"
