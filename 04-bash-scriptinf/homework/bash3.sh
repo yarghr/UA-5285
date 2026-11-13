@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 logfile=log.log
 file=0
-cat "/dev/null" > $logfile
+#cat "/dev/null" > $logfile
 until [ $file -eq 5 ]
 do
 touch "file$file.txt" 

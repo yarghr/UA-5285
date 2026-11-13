@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 logfile=log.log
-cat "/dev/null" > $logfile
+#cat "/dev/null" > $logfile
 for i in {0..4}
 do
 touch "file$i.txt"
